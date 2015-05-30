@@ -32,9 +32,9 @@ public class MicController : Photon.MonoBehaviour {
 	private AudioClip c;
 	private double timer;
 	
-	void Start () {
+	void Start() {
 
-		Debug.Log("Starting the microphone...");
+		Debug.Log("Starting the players microphone...");
 
 		if (photonView.isMine)
 		{
@@ -69,19 +69,22 @@ public class MicController : Photon.MonoBehaviour {
 		Microphone.GetDeviceCaps(selectedDevice, out minFreq, out maxFreq);//Gets the frequency of the device
 		if ((minFreq + maxFreq) == 0)//These 2 lines of code are mainly for windows computers
 			maxFreq = 44100;
+		Debug.Log("The microphone caps are from " + minFreq + " to " + maxFreq);
 	}
 
 	public void StartMicrophone()
 	{
-		c = Microphone.Start(selectedDevice, true, 100, minFreq);//Starts recording
+		c = Microphone.Start(selectedDevice, true, 10, maxFreq);//Starts recording
 		while (!(Microphone.GetPosition(selectedDevice) > 0)){} // Wait until the recording has started
-		//GetComponent<AudioSource>().Play(); // Play the audio source!
+		Debug.Log("The microphone is now recording");
+		GetComponent<AudioSource>().Play(); // Play the audio source!  //Disable this for network transmitted audio
 	}
 
 	public void StopMicrophone()
 	{
 		GetComponent<AudioSource>().Stop();//Stops the audio
 		Microphone.End(selectedDevice);//Stops the recording of the device
+		Debug.Log("The microphone has stopped recording");
 	}   
 
 	void Update()

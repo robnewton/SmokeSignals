@@ -10,11 +10,11 @@ public class NetworkedPlayer : Photon.MonoBehaviour
 	
 	void Start ()
 	{
-		Debug.Log("i'm instantiated");
+		Debug.Log("A networked player has been instantiated");
 		
 		if (photonView.isMine)
 		{
-			Debug.Log("player is mine");
+			Debug.Log("The instantiated player is mine");
 			
 			playerGlobal = GameObject.Find("OVRPlayerController").transform;
 			playerLocal = playerGlobal.Find("OVRCameraRig/TrackingSpace/CenterEyeAnchor");

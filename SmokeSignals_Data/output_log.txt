@@ -18,7 +18,7 @@ Platform assembly: C:\Users\Rob\Documents\GitHub\SmokeSignals\SmokeSignals_Data\
 Loading C:\Users\Rob\Documents\GitHub\SmokeSignals\SmokeSignals_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
 Platform assembly: C:\Users\Rob\Documents\GitHub\SmokeSignals\SmokeSignals_Data\Managed\websocket-sharp.dll (this message is harmless)
 Loading C:\Users\Rob\Documents\GitHub\SmokeSignals\SmokeSignals_Data\Managed\websocket-sharp.dll into Unity Child Domain
-- Completed reload, in  0.151 seconds
+- Completed reload, in  0.137 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1680x1050 59Hz; virtual: 1680x1050 at 0,0
@@ -26,7 +26,7 @@ desktop: 1680x1050 59Hz; virtual: 1680x1050 at 0,0
 Platform assembly: C:\Users\Rob\Documents\GitHub\SmokeSignals\SmokeSignals_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Rob\Documents\GitHub\SmokeSignals\SmokeSignals_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 840 -> priority: 1 
+  Thread -> id: 1588 -> priority: 1 
 joined lobby
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
@@ -39,7 +39,7 @@ player is mine
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
-i'm instantiated
+Microphone is started.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 

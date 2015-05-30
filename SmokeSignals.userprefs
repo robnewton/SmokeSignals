@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NetworkController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MicController.cs">
     <Files>
-      <File FileName="Assets\Scripts\NetworkController.cs" Line="25" Column="2" />
+      <File FileName="Assets\Scripts\MicController.cs" Line="51" Column="3" />
+      <File FileName="Assets\Scripts\NetworkedPlayer.cs" Line="15" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
